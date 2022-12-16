@@ -43,7 +43,24 @@ company = "Garuda Career's"
 
 // dynamic usage
 company = `Garuda Careers ${num1}`
-console.log(company)
+// console.log(company)
+
+// undefined -> no value
+
+var custName = "john"
+
+// console.log(custName)
+// console.log(typeof(custName))
+
+custName = undefined
+
+var name;
+
+console.log(custName)
+console.log(typeof(custName))
+
+console.log(typeof(name))
+
 
 
 
