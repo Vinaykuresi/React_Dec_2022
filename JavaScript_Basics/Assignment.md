@@ -29,3 +29,12 @@ number :
         console.log(number is odd)
 
     var number = 25
+
+21-12-2022 :
+
+    Right Traingle : 
+        *
+       **
+      ***
+     ****
+    *****

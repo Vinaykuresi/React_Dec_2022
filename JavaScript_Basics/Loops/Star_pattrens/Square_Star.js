@@ -1,0 +1,24 @@
+
+/*
+    *****
+    *****
+    *****
+    *****
+    *****
+*/
+
+var no_of_lines = 5;
+var string = "";
+
+// 0, 1, 2, 3, 4
+for(let row = 0; row < no_of_lines; row++){
+    // 0, 1, 2, 3, 4
+    for(let col = 0; col < no_of_lines; col++){
+        // "**" += "*" -> "***"
+        string += "*"
+    }
+    // "\n" -> line break
+    string += "\n"
+}
+
+console.log(string)
