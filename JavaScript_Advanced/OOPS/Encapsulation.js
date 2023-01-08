@@ -11,14 +11,21 @@ class Add {
 
     // setting the value
     setter(num1, num2){
-        this.num_1 = num1
-        this.num_2 = num2 
+        num_1 = num1
+        num_2 = num2 
     }
+    // setter(num1, num2){
+    //     this.num_1 = num1
+    //     this.num_2 = num2 
+    // }
 
     // getter method
     getter(){
-        return `${this.num_1}, ${this.num_2}`
+        return `${num_1}, ${num_2}`
     }
+    // getter(){
+    //     return `${this.num_1}, ${this.num_2}`
+    // }
 
     // method or function
     add(){

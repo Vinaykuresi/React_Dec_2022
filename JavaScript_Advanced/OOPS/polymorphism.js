@@ -1,15 +1,9 @@
 
-class Add_Abstract{
-    add(){
-        console.log("This method is used to add two number")
-    }
-}
 
-class Calculation extends Add_Abstract  {
+class Calculation {
 
     // constructor method
     constructor(num1, num2){
-       super()
        this.num_1 = num1
        this.num_2 = num2  
     }
@@ -35,12 +29,7 @@ class Add extends Calculation {
     constructor(num1, num2){
         // will invoke the propertiees of the parent class
         super(num1, num2)
-        this.num_3 = 10
     }
-
-    // add(){
-    //     return this.num_1 + this.num_2 + this.num_3
-    // }
 
     details(){
         console.log("This is Add Class")
