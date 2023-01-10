@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import JSX from './Component/JSX/code';
-import CondtionalRendering from './Component/Conditional_Rendering/conditional_rendering'
+import CondtionalRendering from './Component/Conditional_Rendering/conditional_rendering';
+import Styling from './Component/Forms/forms';
 
 class App extends React.Component {
   constructor(){
@@ -13,7 +14,8 @@ class App extends React.Component {
 
     return (
       <div>
-          <CondtionalRendering />
+        <Styling/>
+          {/* <CondtionalRendering /> */}
           {/* <JSX/> */}
       </div>
     )
