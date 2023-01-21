@@ -4,6 +4,8 @@ import React from 'react';
 import JSX from './Component/JSX/code';
 import CondtionalRendering from './Component/Conditional_Rendering/conditional_rendering';
 import Styling from './Component/Forms/forms';
+import AjaxDataHandling from './Component/Axios/Ajax_and_Axios';
+import Timer from './Component/Life_Cycle_Methods/Mounting/timer';
 
 class App extends React.Component {
   constructor(){
@@ -14,9 +16,11 @@ class App extends React.Component {
 
     return (
       <div>
-        <Styling/>
+        {/* <Styling/> */}
           {/* <CondtionalRendering /> */}
           {/* <JSX/> */}
+          {/* <AjaxDataHandling /> */}
+          <Timer />
       </div>
     )
   }
