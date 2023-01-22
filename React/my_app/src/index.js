@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ErrorHandler from "./Component/Life_Cycle_Methods/Error_Handling/errorHandling";
